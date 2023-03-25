@@ -1,15 +1,14 @@
 package com.example.steps;
-
 import com.example.app.pages.Login_and_Logout_Page;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.jupiter.api.Assertions;
+
 
 public class LoginandLogout_StepDefs {
 
-    private Login_and_Logout_Page Loginpage = new Login_and_Logout_Page();
+    Login_and_Logout_Page Loginpage = new Login_and_Logout_Page();
 
     @Given("User open browser")
     public void userOpenMobileBrowser() {
@@ -41,10 +40,29 @@ public class LoginandLogout_StepDefs {
 
     @Then("User successfully login in member partai homepage")
     public void userSuccessfullyLoginInMemberPartaiHomepage() {
-        Loginpage.myProfileLanding();
-//        Assertions.assertEquals("Kartu Tanda Anggota",TextTitle);
-    }
+        Loginpage.myProfileLanding();}
 
+    @And("User tap hamburger button")
+    public void userTapHamburgerButton() {
+        Loginpage.hamburgerButton();}
 
+    @And("User tap logout menu")
+    public void userTapLogoutMenu() {
+        Loginpage.logout();}
 
+    @And("user tap yes")
+    public void userTapYes() {
+        Loginpage.confirmationButton();}
+
+    @And("User landing back in login page")
+    public void userLandingBackInLoginPage() {
+        Loginpage.landingBack();}
+
+    @And("User close browser")
+    public void userCloseBrowser() {
+        Loginpage.closebrowser();}
+
+    @And("Alert card message appear with description")
+    public void alertCardMessageAppearWithDescription() {
+        Loginpage.AlertMessageInvalidPhoneNumber();}
 }

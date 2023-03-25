@@ -5,15 +5,12 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 
-import static com.example.app.drivers.AndroidDriverInit.driver;
 
 public class AndroidDriverHook {
 
   @Before()
   public void beforeScenario() {
-    AndroidDriverInit.initialize();
-
-  }
+    AndroidDriverInit.initialize();}
 
   @After()
   public void afterScenario(Scenario scenario) {

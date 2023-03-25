@@ -1,7 +1,7 @@
 !!com.example.app.properties.PropertiesData
 appiumProperties:
   platformName: android
-  deviceName: device
+  deviceName: Samsung Galaxy S23 API 31
   udid: emulator-5554
   app:
   automationName: UIAutomator2

@@ -20,20 +20,13 @@ public class AndroidDriverInit {
     set.setCapability("deviceName","Samsung Galaxy S23 API 31");
     set.setCapability("automationName","UIAutomator2");
     set.setCapability("udid","emulator-5554");
-//    set.setCapability("browserName", "Chrome");
-//    set.setCapability("chromedriverExecutable","\"C:\\Users\\riova\\Downloads\\chromedriver_win32\\chromedriver.exe\"");
-//    set.setCapability("udid","emulator-5554");
-//    set.setCapability("browserName","chrome");
     set.setCapability("noReset","true");
-
-
 
 
     String url = "http://0.0.0.0:4723/wd/hub";
     try {driver = new AndroidDriver<>
             (new URL(url),set);}
-    catch (MalformedURLException e){ e.printStackTrace();}
-  }
+    catch (MalformedURLException e){ e.printStackTrace();}}
 
   public static void quit(){
     driver.quit();}

@@ -1,5 +1,4 @@
 package com.example;
-
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
@@ -9,5 +8,6 @@ import org.junit.runner.RunWith;
     features = "src/test/resources/features/",
     glue = "com.example",
     stepNotifications = true,
-    tags = "@positive")
+    tags = "@Login"
+)
 public class SerenityRunner {}
