@@ -20,14 +20,18 @@ This is my recent project PPI - Simple Login and Logout
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
 ![Serenity](https://img.shields.io/badge/-serenity-16a67a?style=for-the-badge&logo=serenity&logoColor=black)
-![Appium](https://github.com/eltodoan/PPI-Login-Automation/blob/master/appium%20logto.png)
 ![Cucumber](https://img.shields.io/badge/-cucumber-4bc47b?style=for-the-badge&logo=cucumber&logoColor=black)
 
 ```bash
   TEST RESULT
 ```
-https://github.com/eltodoan/PPI-Login-Automation/blob/master/1.png
+![1](https://github.com/eltodoan/PPI-Login-Automation/blob/master/1.png)
 
-https://github.com/eltodoan/PPI-Login-Automation/blob/master/2.png\
+![2](https://github.com/eltodoan/PPI-Login-Automation/blob/master/2.png)
 
-https://github.com/eltodoan/PPI-Login-Automation/blob/master/3.png
+![3](https://github.com/eltodoan/PPI-Login-Automation/blob/master/3.png)
+
+```bash
+  Test Execute Video
+```
+![Test Execute](https://www.youtube.com/watch?v=el5ahZ9OsNQ)
